@@ -1,0 +1,94 @@
+table.page { 
+width: 100% ; 
+height: 22.7% ;
+background-color: teal ;
+border: 2px;
+border-color: black
+
+}
+tr.state {
+    height: 3% ;
+    width: 100% ;
+    
+}
+div.welcome {
+    float: left ; 
+    font-family: serif;
+    text-align: left ;
+}
+div.out {
+    float: right;
+    font-family: serif;
+    text-align: left ;
+}
+
+#headerlogo
+{
+    background-image: url(a.jpg) ;
+    background-repeat: repeat ;
+    width: 100% ;
+    height: 8% ;
+}
+ul.bar {
+    width: 100%;
+    height: 5%;
+    background-color: activecaption ; 
+    align-content: stretch ;
+    align-items: center ;
+   
+}
+ul.bar li{
+   
+    width: 10%;
+    font-family: cursive ;
+    font-size: 24px ;
+    display:  block  ;
+    float: left ;
+    border: 1px; 
+    border-color: black ;
+}
+ul.bar a{
+   text-decoration: none ;
+    color: #FFFFFF ;
+}
+ul.bar a:hover {
+    color: black ;
+}
+
+table.content {
+    width: 100% ; 
+    height: 50% ;
+    background-color: #009999 ;
+    border: 2px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+table.content td{
+    width: 20% ; 
+    height: 100%;
+    align-items: center ;
+    
+}
+
+
+tr.forms input{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    font-family: cursive ;
+}
+
+tr.forms button{
+    color:#FFFFFF ;
+    font-family: cursive ;
+    width: 150px ;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #009999;
+    border-color: white ; 
+    border: 2px;
+    border-style: groove ;
+    
+}
